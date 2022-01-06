@@ -1,0 +1,114 @@
+.cv{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.linea-vertical{
+  border-right: 2px solid #c0c1c2;
+  height: auto;
+  margin-top: 10px;
+}
+
+.cv-izquierda{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #434345;
+  font-family: sans-serif;
+  color: white;
+}
+
+.cv-derecha{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+.nombre{
+  font-weight: bold;
+}
+
+.carrera{
+  
+  margin-top:-10px;
+}
+
+.iconos{
+  float: left;
+  margin-right: 10px;
+}
+
+.datos-izquierda{
+  color: #626367;
+}
+
+.datos-derecha{
+  font-size: 2.5vh;
+  color: #868788;
+}
+
+.sobre-mi{
+  color: #626367;
+  font-weight: bold;
+}
+
+.sobre-mi-parrafo{
+  color: #868788;
+}
+
+.contenido-titulo{
+  color: #626367;
+  font-weight: bold;
+}
+
+.contenido-subtitulo{
+  font-size: small;
+  font-weight: bold;
+  color: #868788;
+}
+
+.contenido-datos{
+  font-size: small;
+  color: #868788;
+  margin-top:-20px;
+}
+
+.contenido-datos-sin-margen{
+  font-size: small;
+  color: #868788;
+}
+
+.contenido-datos-bullet{
+  text-align: justify;
+  font-size: small;
+  color: #868788;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.cont-personal-titulo{
+  font-weight: bold;
+}
+
+.cont-personal-texto-arriba{
+  color: #d7d7d7;
+  margin-top:-20px;
+}
+
+.cont-personal-texto-abajo{
+  color: #d7d7d7;
+  margin-bottom:-4px;
+}
+
+.cont-personal-texto-sin-margen{
+  color: #d7d7d7;
+  
+}
+
+.email::before{
+  content: 'eloy.diazdelcastillo';
+}
+
+.email::after{
+  content: '@utp.ac.pa';
+}
