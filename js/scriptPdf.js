@@ -1,3 +1,4 @@
+/*
 document.addEventListener("DOMContentLoaded", () => {
     // Escuchamos el click del botón
     const $boton = document.querySelector("#btnCrearPdf");
@@ -26,3 +27,5 @@ document.addEventListener("DOMContentLoaded", () => {
             .catch(err => console.log(err));
     });
 });
+
+*/
