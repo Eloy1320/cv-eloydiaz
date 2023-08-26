@@ -1,4 +1,4 @@
-
+// Ejecutar en un servidor local para que funciones
 document.addEventListener("DOMContentLoaded", () => {
     // Escuchamos el click del botón
     const $boton = document.querySelector("#btnCrearPdf");
@@ -7,13 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
         html2pdf()
             .set({
                 margin: 0,
-                filename: 'hola.pdf',
+                filename: 'documento.pdf',
                 image: {
                     type: 'jpeg',
                     quality: 0.98
                 },
                 html2canvas: {
-                    scale: 2, // A mayor escala, mejores gráficos, pero más peso
+                    scale: 2.5, // A mayor escala, mejores gráficos, pero más peso
                     letterRendering: true,
                 },
                 jsPDF: {
