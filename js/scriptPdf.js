@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         html2pdf()
             .set({
                 margin: 0,
-                filename: 'documento.pdf',
+                filename: 'CV-EloyDiazDelCastillo.pdf',
                 image: {
                     type: 'jpeg',
                     quality: 0.98

@@ -21,20 +21,18 @@
 </head>
 
 <body style="background-color: #e4e4e5;">
-  <!-- descomentar esto y el script al final de la pagina para generar pdf -->
-  <!-- <button id="btnCrearPdf">Click aquí</button>-->
   <div class="container cv">
-    <a href="lib/CV-EloyDiazDelCastillo.pdf" download="CV-EloyDiazDelCastillo">
-      Descargar CV
+    <!-- <a href="lib/CV-EloyDiazDelCastillo.pdf" download="CV-EloyDiazDelCastillo"> -->
+      <button type="button" class="btn btn-secondary mb-2" id="btnCrearPdf">Descargar CV</button>
     </a>
     <div class="row" id="pdf">
 
-      <div class="col-12 col-sm-12 col-md-5 col-lg-5 order-2 order-sm-2 order-md-1 order-lg-1 cv-izquierda">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4 order-2 order-sm-2 order-md-1 order-lg-1 cv-izquierda">
         <div class="container">
           <div class="row">
             <div class="col-12">
               <div class="text-center">
-                <img src="img/foto-perfil.png" width="190px" height="230px" class="rounded-circle mb-3" alt="Cinque Terre">
+                <img src="img/foto-perfil.png" width="230px" height="230px" class="mb-3" alt="foto profesional">
               </div>
               <p class="cont-personal-titulo">Datos personales</p>
               <p class="cont-personal-titulo">Fecha de nacimiento</p>
@@ -112,14 +110,14 @@
         </div>
       </div>
 
-      <div class="col-12 col-sm-12 col-md-7 col-lg-7 order-1 order-sm-1 order-md-2 order-lg-2 cv-derecha">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-8 order-1 order-sm-1 order-md-2 order-lg-2 cv-derecha">
 
 
         <div class="container">
           <div class="row">
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 datos-izquierda">
               <h2 class="nombre">Eloy Oriel Díaz Del Castillo</h2>
-              <p class="carrera">Desarrollador de software</p>
+              <p class="carrera">Lic. en Desarrollo de Software</p>
             </div>
 
             <div class="col-12 col-sm-12 col-md-6 col-lg-6 datos-derecha">
@@ -141,11 +139,16 @@
           <div class="row">
             <div class="col-12">
               <p class="sobre-mi">SOBRE MI</p>
-              <p class="sobre-mi-parrafo">Desarrollador de software 
-                con experiencia principalmente en el desarrollo de 
-                aplicaciones web. He trabajado en proyectos utilizando 
-                un amplio espectro de tecnologías, como Ionic, Angular, 
-                Typescript, Laravel, PHP y Visual Basic.</p>
+              <p class="sobre-mi-parrafo">
+                Desarrollador de software con
+                experiencia en el desarrollo de
+                aplicaciones web y soluciones personalizadas.
+                He trabajado con tecnologías como Angular, Ionic,
+                Typescript, Laravel, PHP y Visual Basic, diseñando
+                interfaces, creando soluciones de integración y participando
+                en todas las fases del ciclo de vida del software utilizando
+                metodologías ágiles como Scrum.
+                </p>
             </div>
           </div>
           <hr>
@@ -154,9 +157,28 @@
             <p class="contenido-titulo">EXPERIENCIA LABORAL</p>
 
             <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+              <p class="contenido-subtitulo">BLUECORE</p>
+              <p class="contenido-datos">Panamá</p>
+              <p class="contenido-datos">nov. 2024 - actualidad</p>
+            </div>
+
+            <div class="col-1 linea-vertical"></div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+              <p class="contenido-subtitulo">Ingeniero de software</p>
+              <ul>
+                <li class="contenido-datos-bullet">Desarrollo de interfaces de usuario utilizando Angular dentro de una metodología Scrum.</li>
+                <li class="contenido-datos-bullet">Diseño y desarrollo de pantallas basadas en maquetas proporcionadas en Figma.</li>
+                <li class="contenido-datos-bullet">Creación de mocks para simular llamadas a APIs y validar el flujo de la aplicación.</li>
+                <li class="contenido-datos-bullet">Colaboración en equipos ágiles para la entrega continua de funcionalidades.</li>
+                <li class="contenido-datos-bullet">Participación en el proceso de revisión y mejora de la experiencia de usuario.</li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
               <p class="contenido-subtitulo">PLUG INN CORP</p>
               <p class="contenido-datos">Panamá</p>
-              <p class="contenido-datos">dic. 2022 - actualidad</p>
+              <p class="contenido-datos">dic. 2022 - nov. 2024</p>
             </div>
 
             <div class="col-1 linea-vertical"></div>
@@ -164,12 +186,20 @@
             <div class="col-12 col-sm-12 col-md-6 col-lg-6">
               <p class="contenido-subtitulo">Analista Desarrollador</p>
               <ul>
-                <li class="contenido-datos-bullet">Análisis de requisitos y especificaciones de software.</li>
-                <li class="contenido-datos-bullet">Diseño e implementación de soluciones técnicas.</li>
-                <li class="contenido-datos-bullet">Mantenimiento y mejora continua de aplicaciones existentes.</li>
-                <li class="contenido-datos-bullet">Resolución de problemas y depuración de errores.</li>
-                <li class="contenido-datos-bullet">Colaboración en la planificación y ejecución de proyectos de desarrollo.</li>
-                <li class="contenido-datos-bullet">Investigación y adopción de nuevas tecnologías para optimizar el desarrollo.</li>
+                <li class="contenido-datos-bullet">Análisis de requisitos y especificaciones para el desarrollo de software a medida y personalización de sistemas existentes.</li>
+                <li class="contenido-datos-bullet">Diseño, implementación y mantenimiento de nuevas funcionalidades para "Switch", un software de gestión empresarial (PHP/Laravel, Ionic Angular, Bootstrap).</li>
+                <li class="contenido-datos-bullet">Desarrollo de aplicaciones personalizadas para facturación electrónica rápida, gestión de inventarios y control de bodegas (Visual Basic .NET, Windows Forms).</li>
+                <li class="contenido-datos-bullet">Creación de soluciones de escritorio con integración de lectores de huellas, conectadas a "Switch" para verificación de suscripciones.</li>
+                <li class="contenido-datos-bullet">Desarrollo e implementación de plataformas web y aplicaciones PDT (dispositivos portátiles con Windows) para control de inventarios y seguimiento de carga en Zona Libre (Laravel, Visual Basic).</li>
+                <li class="contenido-datos-bullet">Responsable de proyectos de software en Zona Libre, gestionando solicitudes de clientes, nuevas funcionalidades y mejoras continuas.</li>
+                <li class="contenido-datos-bullet">Participación en la planificación, desarrollo y despliegue de soluciones de facturación y control de visitantes.</li>
+                <li class="contenido-datos-bullet">Automatización de facturación electrónica utilizando un Excel (Visual Basic .NET).</li>
+                <li class="contenido-datos-bullet">Participación en el análisis, diseño y planificación de un software de punto de venta integrado con "Switch" (Visual Basic .NET).</li>
+                <li class="contenido-datos-bullet">Diseño e implementación de sistemas de gestión personalizados para cadenas de tiendas con múltiples sucursales (Visual Basic .NET).</li>
+                <li class="contenido-datos-bullet">Resolución de incidencias, depuración de errores y optimización de aplicaciones existentes.</li>
+                <li class="contenido-datos-bullet">Investigación y adopción de nuevas tecnologías para mejorar el rendimiento y funcionalidades de los sistemas.</li>
+                <li class="contenido-datos-bullet">Trabajo en equipo para la planificación y ejecución de proyectos, desde la fase de investigación hasta la puesta en producción.</li>
+                <li class="contenido-datos-bullet">Interacción directa con clientes para levantar requisitos, realizar pruebas y asegurar la calidad del software entregado.</li>
               </ul>
             </div>
 
@@ -276,17 +306,6 @@
             </div>
 
           </div>
-
-          <hr>
-          <div class="row">
-            <p class="contenido-titulo">AFICIONES</p>
-
-            <div class="col-12">
-              <p class="contenido-datos-sin-margen">EDICIÓN DE VIDEOS, PROGRAMAR Y ACTIVIDAD FÍSICA.</p>
-            </div>
-
-          </div>
-
 
         </div>
 
